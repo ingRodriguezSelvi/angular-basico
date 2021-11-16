@@ -10,7 +10,7 @@ import { Personaje } from '../interfaces/dbz.interfaces';
 
 export class AgregarComponent  {
 
-  
+  //Andrés tiene gay
   @Input() nuevo : Personaje = {
     nombre: '',
     poder: 0
