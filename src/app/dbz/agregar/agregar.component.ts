@@ -10,7 +10,7 @@ import { Personaje } from '../interfaces/dbz.interfaces';
 
 export class AgregarComponent  {
 
-  
+  //hola rafa esta es mi rama
   @Input() nuevo : Personaje = {
     nombre: '',
     poder: 0
@@ -25,12 +25,12 @@ export class AgregarComponent  {
     console.log ( this.nuevo );
     //this.onNuevoPersonaje.emit( this.nuevo );
 
-    
+
     this.nuevo = {
       nombre: '',
-      poder: 0 
+      poder: 0
     }
-    
+
 
 
 }
